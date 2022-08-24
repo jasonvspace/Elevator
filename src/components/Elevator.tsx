@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ElevatorStatus, Floor } from '../models';
-import { FloorButtons, ElevatorDoors, ElevatorScreen, DeleteButton, Wrapper } from '.';
+import { FloorButtons, ElevatorDoors, ElevatorScreen, Wrapper } from '.';
 import { useCurrentFloor, useSetClass } from '../hooks';
 
 type ElevatorProps = {
